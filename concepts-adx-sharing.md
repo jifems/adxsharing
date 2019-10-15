@@ -1,9 +1,9 @@
-# Snapshot-based sharing from SQL-based sources
+# How in-place sharing for Azure Data Explorer works
 
-This article describes how snapshot-based sharing works for SQL-based sources such as Azure SQL Database and Azure SQL Data Warehouse
+This article describes how in-place sharing works for Azure Data Explorer.
 
-## Data Sharing from SQL-based sources
-Azure Data Share supports the ability to share tables and views from Azure SQL Database and Azure SQL Data Warehouse. Data providers can add tables and views from existing SQL Servers to a data share. Data consumers can receive data in a variety of data sources including Azure Data Lake Store Gen2, Azure Storage, Azure SQL Database or Azure SQL Data Warehouse. 
+## Sharing data from Azure Data Explorer cluster
+Azure Data Share supports the ability to share databases from Azure Data Explorer cluster. Data providers can add databases from existing Azure Data Explorer to a share. 
 
 Data shared from SQL-based sources contains schema and data only. Azure Data Share does not preserve any pre-existing constraints defined on a table or view. Data is shared as a snapshot of the table or view at the time that a snapshot is generated. Azure Data Share does not support incremental copy.
 
