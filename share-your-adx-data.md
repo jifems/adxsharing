@@ -1,0 +1,1 @@
+Share your ADX data
