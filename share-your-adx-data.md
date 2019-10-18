@@ -4,8 +4,8 @@ In this tutorial, you will learn how to set up a new Azure Data Share resource a
 
 * Create a Data Share resource.
 * Create a share.
-** Add ADX databases your share.
-** Add recipients to your share. 
+> * Add ADX databases your share.
+> * Add recipients to your share. 
 
 ## Prerequisites
 
