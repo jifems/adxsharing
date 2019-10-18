@@ -6,6 +6,6 @@ Firstly, please ensure that you have sent us your Azure Subscription ID(s) for t
 
 Next, you would have received an e-mail from the Azure Data Share team informing you that your Azure subscription has been enabled for ADX-based sharing. To understand how this feature works, please read [Concepts for ADX-based sharing](concepts-adx-sharing.md).
 
-To start sharing data from ADX, ensure that you follow ALL pre-requisites in [Share your ADX data](share-your-adx-data.md).
+To start sharing data from an ADX cluster, ensure that you follow ALL pre-requisites in [Share your ADX data](share-your-adx-data.md).
 
-For a data consumer to receive your data directly to an ADX cluster, ensure that they follow ALL pre-requisites in [Receive ADX Data](receive-adx-data.md).
+For a data consumer to receive your data to an ADX cluster, ensure that they follow ALL pre-requisites in [Receive ADX Data](receive-adx-data.md).
