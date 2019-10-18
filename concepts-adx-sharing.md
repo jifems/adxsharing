@@ -7,6 +7,8 @@ Azure Data Share supports the ability to share databases from ADX cluster. Data 
 
 Databases are shared to data consumer in-place, which means data 
 
+![ADX In-place Sharing Architecture](./media/adx-sharing-architecture.png "ADX In-place Sharing Architecture")
+
 Data shared from SQL-based sources contains schema and data only. Azure Data Share does not preserve any pre-existing constraints defined on a table or view. Data is shared as a snapshot of the table or view at the time that a snapshot is generated. Azure Data Share does not support incremental copy.
 
 Scheduled incremental copies are not supported for SQL-based sharing. If a snapshot is scheduled, a snapshot of the table as it exists on the originators SQL Server is generated at each scheduled or manual trigger. This means that each time a snapshot is triggered, the full contents of the table are brought across rather than just the delta since the last copy. 
