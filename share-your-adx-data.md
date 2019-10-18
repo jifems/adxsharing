@@ -1,13 +1,12 @@
-# Tutorial: Share data from Azure SQL-based sources
+# Tutorial: Share data from Azure Data Explorer
 
-In this tutorial you will learn how to set up a new Azure Data Share and start sharing SQL-based data with customers and partners outside of your Azure organization.
-
-In this tutorial, you'll learn how to:
+In this tutorial, you will learn how to set up a new Azure Data Share resource and start sharing data from your Azure Data Explorer (ADX) cluster with your partners and customers following these steps:
 
 > [!div class="checklist"]
-> * Create a Data Share.
-> * Add tables and views to your Data Share.
-> * Add recipients to your Data Share. 
+> * Create a Data Share resource.
+> * Create a share.
+> * Add ADX databases your share.
+> * Add recipients to your share. 
 
 ## Prerequisites
 
