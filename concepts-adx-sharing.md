@@ -10,4 +10,4 @@ Azure Data Explorer supports two modes of data ingestion: micro-batch and stream
 
 ## Next steps
 
-- Learn how to [share data from Azure Data Explorer](share-your-adx-data.md)
+- Learn how to [share your data from Azure Data Explorer](share-your-adx-data.md)
