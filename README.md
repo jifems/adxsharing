@@ -1,11 +1,13 @@
-# Limited Public Preview: Share data from Azure Data Explorer using Azure Data Share
+# Share data from Azure Data Explorer using Azure Data Share (Preview)
 
-Welcome to the Public Preview of Azure Data Explorer(ADX)-based sharing with Azure Data Share. This article describes how to get started with sharing data from Azure Data Explorer. Please ensure that you follow all pre-requisites outlined in the documentation in order to successfully share and receive Azure Data Explorer data!
+Welcome to the Preview of Azure Data Share in-place sharing support for Azure Data Explorer (ADX). This article describes how to get started sharing data from ADX. Please follow all pre-requisites outlined in the documentation to successfully share and receive ADX data!
 
-Firstly, please ensure that you have sent us your Azure Subscription ID(s) for the Azure subscriptions you'd like to share data from and to. This is submitted when signing up for the preview, which should have been done by filling out the [sign up form](https://aka.ms/azuredatasharepreviewsignup).
+Firstly, please ensure that you have sent us your Azure Subscription ID(s) for the Azure subscriptions you'd like to share data from and to. This is submitted when [signing up for the preview](https://aka.ms/azuredatasharepreviewsignup).
 
-Next, you would have received an e-mail from the Azure Data Share team informing you that your Azure subscription has been enabled for ADX-based sharing. To understand how this feature works, please read the file Concepts for ADX-based sharing.
+Next, you would have received an e-mail from the Azure Data Share team informing you that your Azure subscription has been enabled for ADX-based sharing. 
 
-To start sharing data from an Azure Data Explorer, ensure that you follow ALL pre-requisites in Share your ADX data.
+To understand how this feature works, please read Concepts for ADX-based sharing.
 
-For a data consumer to receive your data directly to an Azure Data Explorer cluster, ensure that they follow ALL pre-requisites in Receive ADX Data.
+To start sharing data from ADX, ensure that you follow ALL pre-requisites in Share your ADX data.
+
+For a data consumer to receive your data directly to an ADX cluster, ensure that they follow ALL pre-requisites in Receive ADX Data.
