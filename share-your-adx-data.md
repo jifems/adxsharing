@@ -2,10 +2,10 @@
 
 In this tutorial, you will learn how to set up a new Azure Data Share resource and start sharing data from your Azure Data Explorer (ADX) cluster with your partners and customers following these steps:
 
-> * Create a Data Share resource.
-> * Create a share.
-> ** Add ADX databases your share.
-> ** Add recipients to your share. 
+* Create a Data Share resource.
+* Create a share.
+** Add ADX databases your share.
+** Add recipients to your share. 
 
 ## Prerequisites
 
