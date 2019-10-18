@@ -1,4 +1,4 @@
-# How in-place sharing works for Azure Data Explorer
+# How Azure Data Explorer in-place sharing works
 
 This article describes how in-place sharing works for Azure Data Explorer.
 
