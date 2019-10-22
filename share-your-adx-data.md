@@ -50,7 +50,7 @@ Create an Azure Data Share resource in an Azure resource group.
 
 1. Select **Create**.   
 
-    ![Share your data](./media/create-share.png "Create share") {:height="70%# width="70%"}
+    <img src="./media/create-share.png" width="70%">
 
 1. Fill out the details for your Data Share. Specify a name, description of share contents, and terms of use (optional). 
 
