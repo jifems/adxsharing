@@ -10,30 +10,15 @@ In this tutorial, you will learn how to set up a new Azure Data Share resource a
 ## Prerequisites
 
 * Azure Subscription: If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/) before you begin.
-* An Azure SQL Database or Azure SQL Data Warehouse with tables and views that you want to share.
-* Your data consumer's Azure login e-mail address (using their e-mail alias will not work).
-* Permission for the data share to access the data warehouse. This can be done through the following steps: 
-    1. Set yourself as the Azure Active Directory Admin for the server.
-    1. Connect to the Azure SQL Database/Data Warehouse using Azure Active Directory.
-    1. Use Query Editor (preview) to execute the following script to add the Data Share MSI as a db_owner. You must connect using Active Directory and not SQL Server authentication. 
-    
-            create user <share_acct_name> from external provider;
-        
-            exec sp_addrolemember db_owner, <share_acct_name>;
-    
-Note that the *<share_acc_name>* is the name of your Data Share Account. If you have not created a Data Share account as yet, you can come back to this pre-requisite later.         
-
-* Client IP SQL Server Firewall access: This can be done through the following steps: 
-        1. Navigate to *Firewalls and Virtual Networks*
-        1. Click the **on** toggle to allow access to Azure Services. 
-
-Once these pre-requisites are complete, you are ready for sharing data from SQL-based sources. 
+* An Azure Data Explorer cluster with databases that you want to share.
+* Your data consumer's Azure login e-mail address (using their e-mail alias will not work)
+* Permission to add role assignment to your Azure Data Explorer resource. This permission exists in Owner role. 
 
 ## Sign in to the Azure portal
 
 Sign in to the [Azure portal](https://portal.azure.com/).
 
-## Create a Data Share Account
+## Create an Azure Data Share
 
 Create an Azure Data Share resource in an Azure resource group.
 
@@ -41,19 +26,19 @@ Create an Azure Data Share resource in an Azure resource group.
 
 1. Search for *Data Share*.
 
-1. Select Data Share (preview) and Select **Create**.
+1. Select *Data Share* and Select **Create**.
 
 1. Fill out the basic details of your Azure Data Share resource with the following information. 
 
      **Setting** | **Suggested value** | **Field description**
     |---|---|---|
-    | Name | *datashareacount* | Specify a name for your data share account. |
+    | Name | *datashareacount* | Specify a name for your data share resource. |
     | Subscription | Your subscription | Select the Azure subscription that you want to use for your data share account.|
     | Resource group | *test-resource-group* | Use an existing resource group or create a new resource group. |
-    | Location | *East US 2* | Select a region for your data share account.
+    | Location | *East US 2* | Select a region for your data share resource.
     | | |
 
-1. Select **Create** to provision your data share account. Provisioning a new data share account typically takes about 2 minutes or less. 
+1. Select **Create** to provision your data share resource. Provisioning a new data share resource typically takes about 2 minutes or less. 
 
 1. When the deployment is complete, select **Go to resource**.
 
