@@ -76,11 +76,11 @@ Create an Azure Data Share resource in an Azure resource group.
 
 1. In the Review + Create tab, review your Share Contents, Settings and Recipients. Select **Create**
 
-   ![AddRecipients](./media/review-and-create-share.png "Review and Create Share") 
+   ![ReviewAndCreateShare](./media/review-and-create-share.png "Review and Create Share") 
 
 Your Share has now been created and the recipient of your Data Share is now ready to accept your invitation. 
 
-   ![AddRecipients](./media/sent-share.png "Sent Share") 
+   ![SentShares](./media/sent-share.png "Sent Share") 
 
 ## Next steps
 
