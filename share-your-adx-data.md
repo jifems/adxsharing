@@ -52,7 +52,7 @@ Create an Azure Data Share resource in an Azure resource group.
 
     <img src="./media/create-share.png" width="70%">
 
-1. Fill out the details for your Data Share. Specify a name, description of share contents, and terms of use (optional). 
+1. Fill out the details for your Data Share. Specify a name, share type (select *In-place*), description, and optionally terms of use. 
 
     ![EnterShareDetails](./media/enter-share-details.png "Enter Share details") 
 
@@ -62,7 +62,7 @@ Create an Azure Data Share resource in an Azure resource group.
 
     ![Datasets](./media/datasets.png "Datasets")
 
-1. Select the dataset type that you would like to add. For the case of SQL-based sharing, select Azure SQL Database or Azure SQL Data Warehouse depending on where your data is stored. 
+1. Select the dataset type *Azure Data Explorer*.
 
 1. Navigate to the object you would like to share and select 'Add Datasets'. 
 
@@ -74,19 +74,15 @@ Create an Azure Data Share resource in an Azure resource group.
 
 1. Select **Continue**
 
-1. If you'd like your data consumer to be able to receive regular snapshots of your data, enable the snapshot schedule. 
+1. In the Review + Create tab, review your Share Contents, Settings and Recipients. Select **Create**
 
-    ![EnableSnapshots](./media/enable-snapshots.png "Enable snapshots") 
+   ![AddRecipients](./media/review-and-create-share.png "Review and Create Share") 
 
-1. Select a start time and recurrence interval. 
+Your Share has now been created and the recipient of your Data Share is now ready to accept your invitation. 
 
-1. Select **Continue**
-
-1. In the Review + Create tab, review your Package Contents, Settings, Recipients, and Synchronization Settings. Select **Create**
-
-Your Azure Data Share has now been created and the recipient of your Data Share is now ready to accept your invitation. 
+   ![AddRecipients](./media/sent-share.png "Sent Share") 
 
 ## Next steps
 
-In this tutorial, you learnt how to create an Azure Data Share and invite recipients. To learn about how a Data Consumer can accept and receive a data share, continue to the [accept and receive SQL data](receive-sql-data.md) tutorial. 
+To learn about how a Data Consumer can accept and receive a share, continue to the [accept and receive ADX data](receive-adx-data.md) tutorial. 
 
