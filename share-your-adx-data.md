@@ -42,15 +42,15 @@ Create an Azure Data Share resource in an Azure resource group.
 
 1. When the deployment is complete, select **Go to resource**.
 
-## Create a Data Share
+## Create a Share
 
-1. Navigate to your Data Share Overview page.
+1. Navigate to your Data Share Overview page and select **Start sharing your data**.
 
-    ![Share your data](./media/share-receive-data.png "Share your data") 
-
-1. Select **Start sharing your data**.
+    ![Share your data](./media/datashare-overview.png "Share sharing your data") 
 
 1. Select **Create**.   
+
+    ![Share your data](./media/create-share.png "Create share") 
 
 1. Fill out the details for your Data Share. Specify a name, description of share contents, and terms of use (optional). 
 
