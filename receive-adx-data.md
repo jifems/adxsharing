@@ -44,10 +44,10 @@ In this tutorial you will learn how to receive databases shared from one Azure D
 
     ![SQL Map](./media/sql-mapping.png)
 
-1. Click **Dataset** tab. You will need to specify a target Azure Data Explorer cluster for each dataset. This can be done by selecting the dataset and selecting "+ Map to target". 
+1. Click **Dataset** tab. You will need to specify a target Azure Data Explorer cluster for each dataset. This can be done by selecting the dataset and selecting "+ Map to target". You can select multiple datasets and map them to the same target as long as the source datasets are in the same Azure Data Centers. 
 
-1. On the right hand side, a new pane will be displayed. Select the Target data type you'd like to map to, and fill out all corresponding fields to designate a database or data warehouse to receive data into. 
+1. On the right hand side, a new pane will be displayed. Select an Azure Data Explorer cluster to receive the data. The Azure Data Explorer cluster you specify must be in the same location as the source cluster where data is shared from.
 
     ![SQL Map](./media/sql-map-to-target.png)
 
-You can now access the received databases in your Azure Data Explorer cluster. 
+    You can now access the received databases in your Azure Data Explorer cluster. 
