@@ -8,4 +8,6 @@ Next, you would have received an e-mail from the Azure Data Share team informing
 
 To start sharing data from an ADX cluster, ensure that you follow ALL pre-requisites in [Share your ADX data](share-your-adx-data.md).
 
-For a data consumer to receive your data to an ADX cluster, ensure that they follow ALL pre-requisites in [Receive ADX Data](receive-adx-data.md).
+For a data consumer to receive your data to an ADX cluster, ensure that they follow ALL pre-requisites in [Receive ADX data](receive-adx-data.md).
+
+To troubleshoot common data sharing issues, refer to [Troubleshoot common issues](troubleshoot-adx-sharing.md).
