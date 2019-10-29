@@ -28,3 +28,6 @@ The target Azure Data Explorer cluster must be in the same Azure Data Center as 
 
 ## Shared database is not showing up
 If you already have a database of the same name in your consumer's ADX cluster, the shared database will not show up in the consumer's ADX cluster.
+
+## Your question is still not answered?
+Please contact azdatasharesupport@microsoft.com for support.
