@@ -10,4 +10,4 @@ To start sharing data from an ADX cluster, ensure that you follow ALL pre-requis
 
 For a data consumer to receive your data to an ADX cluster, ensure that they follow ALL pre-requisites in [Receive ADX data](receive-adx-data.md).
 
-To troubleshoot common data sharing issues, refer to [Troubleshoot common issues](troubleshoot-adx-sharing.md).
+To troubleshoot data sharing issues, refer to [Troubleshoot common issues](troubleshoot-adx-sharing.md).
