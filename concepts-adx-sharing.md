@@ -4,7 +4,7 @@ Azure Data Share supports the ability to share databases in-place from ADX clust
 
 <img src="./media/adx-sharing-architecture.png" width="60%">
 
-When data consumer accesses the data, it uses resources from data consumer's ADX cluster. Data consumer can configure its own access and caching policies to the received databases, and view logs on its own query. It is not written to the blob storage account powering the consumer's cluster. Data consumer can only read or query the data, but not write to the database. When data provider revokes access, symbolic link is deleted, and the shared database(s) are no longer available to the data consumer.
+When data consumer accesses the data, it uses resources from the data consumer's ADX cluster. Data consumer can configure its own access and caching policies to the received databases, as well as view logs on its own query. It is not written to the blob storage account powering the consumer's cluster. Data consumer can only read or query the data, but not write to the database. When data provider revokes access, symbolic link is deleted, and the shared database(s) are no longer available to the data consumer.
 
 Both the provider and consumer's ADX clusters must be in the same Azure Data Center. Cross Azure Data Center sharing is not supported.
 
