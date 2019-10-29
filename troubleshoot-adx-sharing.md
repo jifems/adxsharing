@@ -27,5 +27,4 @@ In some cases, when a new user clicks Accept Invitation from the e-mail invitati
 The target Azure Data Explorer cluster must be in the same Azure Data Center as the source Azure Data Explorer cluster. Only the Azure Data Explorer cluster in the same Azure Data Center will show up in the selection list. If you don't have an Azure Data Explorer cluster in the same region as the source, please create one and then continue with Map to target.
 
 ## Shared database is not showing up
-
 If you already have a database of the same name in your consumer's ADX cluster, the shared database will not show up in the consumer's ADX cluster.
