@@ -11,8 +11,8 @@ In this tutorial, you will learn how to set up a new Azure Data Share resource a
 
 * Azure Subscription: If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/) before you begin.
 * An Azure Data Explorer cluster with databases that you want to share.
+* Owner permission to the Azure Data Explorer cluster.
 * Your data consumer's Azure login e-mail address (using their e-mail alias will not work)
-* Permission to add role assignment to your Azure Data Explorer resource. This permission exists in Owner role. 
 
 ## Sign in to the Azure portal
 
@@ -83,6 +83,8 @@ Create an Azure Data Share resource in an Azure resource group.
    ![SentShares](./media/sent-share.png "Sent Share") 
 
 ## Next steps
-
 To learn about how a Data Consumer can accept and receive a share, continue to the [accept and receive ADX data](receive-adx-data.md) tutorial. 
+
+## Troubleshoot
+To troubleshoot data sharing issues, refer to [Troubleshoot common issues](troubleshoot-adx-sharing.md).
 
