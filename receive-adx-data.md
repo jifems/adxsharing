@@ -8,9 +8,9 @@ In this tutorial you will learn how to receive databases shared from one Azure D
 ## Prerequisites
 
 * Azure Subscription: If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/) before you begin.
-* An Azure Data Explorer cluster to receive data into.
 * A Data Share Invitation from your Data Provider.
-* Permission to add role assignment to your Azure Data Explorer resource. This permission exists in Owner role.
+* An Azure Data Explorer cluster to receive data into. Note the Azure Data Explorer cluster needs to be in the same Azure Data Center as the source Azure Data Explorer cluster where the data is shared from. When configuring received share in the step below, you will see the location of the source Azure Data Explorer cluster.
+* Owner permission to the Azure Data Explorer cluster.
 
 ## View and Accept Invitation
 
@@ -46,8 +46,11 @@ In this tutorial you will learn how to receive databases shared from one Azure D
 
 1. Click **Dataset** tab. You will need to specify a target Azure Data Explorer cluster for each dataset. This can be done by selecting the dataset and selecting "+ Map to target". You can select multiple datasets and map them to the same target as long as the source datasets are in the same Azure Data Centers. 
 
-1. On the right hand side, a new pane will be displayed. Select an Azure Data Explorer cluster to receive the data. The Azure Data Explorer cluster you specify must be in the same location as the source cluster where data is shared from.
+1. On the right hand side, a new pane will be displayed. Select an Azure Data Explorer cluster to receive the data. The Azure Data Explorer cluster you specify must be in the same location as the source cluster where data is shared from. If you don't have an Azure Data Explorer cluster in the same location as the source cluster, please create one and then continue the step.  
 
     ![SQL Map](./media/sql-map-to-target.png)
 
     You can now access the received databases in your Azure Data Explorer cluster. 
+    
+## Troubleshoot
+To troubleshoot data sharing issues, refer to [Troubleshoot common issues](troubleshoot-adx-sharing.md).
