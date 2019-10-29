@@ -2,6 +2,13 @@
 
 This article explains how to troubleshoot common issues in sharing and receiving data from Azure Data Explorer.
 
+## Permission error to share data
+
+## Permission error to configure target ADX cluster
+
+## When configuring target ADX cluster, my ADX cluster is not showing up
+
+
 ## Azure Data Share invitation not showing up
 In some cases, when a new user clicks Accept Invitation from the e-mail invitation that was sent, they may be presented with an empty list of invitations. This could be due to the following reasons:
 
@@ -13,13 +20,10 @@ In some cases, when a new user clicks Accept Invitation from the e-mail invitati
 * Search for Microsoft.DataShare
 * Click Register
 
-**1. Invitation is sent to your email alias instead of your Azure login email.** If you have regiserted the Azure Data Share service or have already created a Data Share resource in the Azure tenant, but still cannot see the invitation, it maybe because the provider has entered your email alias as recipient instead of your Azure login email address. Contact your data provider and ensure that they have sent the invitation to your Azure login e-mail address and not your e-mail alias.
+**2. Invitation is sent to your email alias instead of your Azure login email.** If you have regiserted the Azure Data Share service or have already created a Data Share resource in the Azure tenant, but still cannot see the invitation, it maybe because the provider has entered your email alias as recipient instead of your Azure login email address. Contact your data provider and ensure that they have sent the invitation to your Azure login e-mail address and not your e-mail alias.
 
-**1. Invitation has already been accepted.** The link in the email takes you to the Data Share Invitation page in Azure Portal, which only lists pending invitations. If you have already accepted the invitation, it will no longer show up in the Data Share Invitation page. Proceed to your Data Share resource which you used to accept the invitation into to view received shares and configure your target Azure Data Explorer cluster setting.
+**3. Invitation has already been accepted.** The link in the email takes you to the Data Share Invitation page in Azure Portal, which only lists pending invitations. If you have already accepted the invitation, it will no longer show up in the Data Share Invitation page. Proceed to your Data Share resource which you used to accept the invitation into to view received shares and configure your target Azure Data Explorer cluster setting.
 
-## Received database not showing up
+## Shared database is not showing up
 
-* Azure Subscription: If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/) before you begin.
-* An Azure Data Explorer cluster to receive data into.
-* A Data Share Invitation from your Data Provider.
-* Permission to add role assignment to your Azure Data Explorer resource. This permission exists in Owner role.
+If you already have a database of the same name in your consumer's ADX cluster, the shared database will not show up.
