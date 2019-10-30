@@ -54,35 +54,35 @@ Create an Azure Data Share resource in an Azure resource group.
 
 1. Fill out the details for your Data Share. Specify a name, share type (select **In-place**), description, and optionally terms of use. Select **Continue**. 
 
-    <img src="./media/enter-share-details.png" width="70%">
+    <img src="./media/enter-share-details.png" width="80%">
 
 1. To add Datasets to your Data Share, select **Add Datasets**. 
 
-    <img src="./media/datasets.png" width="70%">    
+    <img src="./media/datasets.png" width="80%">    
 
 1. Select the dataset type **Azure Data Explorer**. 
 
-      <img src="./media/select-datasets-type.png" width="70%">   
+      <img src="./media/select-datasets-type.png" width="80%">   
 
 1. Select the databases you like to share. Select **Add Datasets**. 
 
-     <img src="./media/select-datasets.png" width="70%">   
+     <img src="./media/select-datasets.png" width="80%">   
      
 1. Verify dataset is added successfully. Select **Continue**.
 
-      <img src="./media/add-datasets.png" width="70%">   
+      <img src="./media/add-datasets.png" width="80%">   
 
 1. In the Recipients tab, enter in the email addresses of your Data Consumer by selecting **Add Recipient**. Select **Continue**.
 
-      <img src="./media/add-recipient.png" width="70%">  
+      <img src="./media/add-recipient.png" width="80%">  
 
 1. In the Review + Create tab, review your Share Contents, Settings and Recipients. Select **Create**.
 
-    <img src="./media/review-and-create-share.png" width="70%">  
+    <img src="./media/review-and-create-share.png" width="80%">  
 
    Your Share has now been created and the recipient of your Data Share is now ready to accept your invitation. 
 
-    <img src="./media/sent-share.png" width="70%">  
+    <img src="./media/sent-share.png" width="80%">  
 
 ## Next steps
 To learn about how a Data Consumer can accept and receive a share, continue to the [accept and receive ADX data](receive-adx-data.md) tutorial. 
