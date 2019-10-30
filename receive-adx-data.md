@@ -30,7 +30,7 @@ In this tutorial you will learn how to receive databases shared from one Azure D
 
     For the *Received Share Name* field, you may leave the default specified by the Data Provide, or specify a new name for the received share. 
 
-    <img src="./media/target-data-share.png" width="80%">  
+    <img src="./media/target-data-share.png">  
 
 1. Click **Accept and Configure** to accept the invitation. If you don't want to accept the invitation, select *Reject*. 
 
@@ -40,22 +40,22 @@ In this tutorial you will learn how to receive databases shared from one Azure D
 ## Configure Received Share
 1. Navigate to Data Share resource which you have accepted the invitation into.  Select **Received Shares** on the left side panel and select the share that you accepted. 
 
-    <img src="./media/received-share.png" width="80%">  
+    <img src="./media/received-share.png">  
 
-1. Click **Dataset** tab. You will need to specify a target Azure Data Explorer cluster for each dataset. This can be done by selecting the dataset and selecting "+ Map to target". You can select multiple datasets and map them to the same target as long as the source datasets are in the same Azure Data Centers. 
+1. Click **Dataset** tab. You will need to specify a target Azure Data Explorer cluster for each dataset. This can be done by selecting the dataset and selecting **Map to target**. You can select multiple datasets and map them to the same target as long as the source datasets are of the same type and are in the same Azure data centers or locations. 
 
-    <img src="./media/received-share-dataset.png" width="80%">  
+    <img src="./media/received-share-dataset.png">  
 
-1. On the right hand side, a new pane will be displayed. Select an Azure Data Explorer cluster to receive the data. The Azure Data Explorer cluster you specify must be in the same location as the source cluster where data is shared from. If you don't have an Azure Data Explorer cluster in the same location as the source cluster, please create one and then continue the step.  
+1. On the right hand side, a new pane will be displayed. Select an Azure Data Explorer cluster to receive the data. Select **Map**. The Azure Data Explorer cluster you specify must be in the same location as the source cluster where data is shared from. If you do not have an Azure Data Explorer cluster in the same location as the source cluster, please create one and then continue.  
 
-    <img src="./media/map-dataset.png" width="80%">  
+    <img src="./media/map-dataset.png">  
 
-1. Select the path.
-    <img src="./media/dataset-mapped.png" width="80%">  
+1. Once mapping is successful, you can start accessing data from the shared database. Select the path next to the dataset to open Azure Data Explorer cluster.
+    <img src="./media/dataset-mapped.png" >  
 
-    You can now access the received databases in your Azure Data Explorer cluster. 
+    You should see the shared databases in your Azure Data Explorer cluster. 
     
-    <img src="./media/target-adx.png" width="80%">  
+    <img src="./media/target-adx.png" >  
     
 ## Troubleshoot
 To troubleshoot data sharing issues, refer to [Troubleshoot common issues](troubleshoot-adx-sharing.md).
