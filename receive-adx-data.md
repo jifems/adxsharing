@@ -16,40 +16,46 @@ In this tutorial you will learn how to receive databases shared from one Azure D
 
 1. Check your inbox for an invitation from your data provider. The invitation is from Microsoft Azure, titled **Azure Data Share invitation from <yourdataprovider@domain.com>**. Click on the link **View invitation**. This takes you to Azure login screen.
 
-    ![InvitationEmail](./media/invitation-email.png "Invitation Email") 
+    <img src="./media/invitation-email.png" width="80%">  
 
 1. Sign in to the [Azure portal](https://portal.azure.com/). This takes you to your Data Share Invitations view. Select the invitation you would like to view. 
 
-    ![Invitations](./media/invitations.png "List of invitations") 
-
+    <img src="./media/invitations.png" width="80%">  
 
 1. Review all the fields in the invitation, If you agree to the **Terms of use**, check *I agree to the terms of use*. 
 
-    ![Terms of use](./media/terms-of-use.png "Terms of use") 
+    <img src="./media/terms-of-use.png" width="80%">  
 
 1. Under *Target Data Share Account*, select your Data Share resource which you like to accept the invitation into. You can filter by Azure Subscription and Resource Group. If you don't have a Data Share resource, click **Create new** to create a Data Share resource. 
 
     For the *Received Share Name* field, you may leave the default specified by the Data Provide, or specify a new name for the received share. 
 
-    ![Target data share account](./media/target-data-share.png "Target data share account") 
+    <img src="./media/target-data-share.png" width="80%">  
 
 1. Click **Accept and Configure** to accept the invitation. If you don't want to accept the invitation, select *Reject*. 
 
-    ![Accept options](./media/accept-options.png "Accept options") 
+    <img src="./media/accept-options.png" width="80%">  
 
 
 ## Configure Received Share
 1. Navigate to Data Share resource which you have accepted the invitation into.  Select **Received Shares** on the left side panel and select the share that you accepted. 
 
-    ![SQL Map](./media/sql-mapping.png)
+    <img src="./media/received-share.png" width="80%">  
 
 1. Click **Dataset** tab. You will need to specify a target Azure Data Explorer cluster for each dataset. This can be done by selecting the dataset and selecting "+ Map to target". You can select multiple datasets and map them to the same target as long as the source datasets are in the same Azure Data Centers. 
 
+    <img src="./media/received-share-dataset.png" width="80%">  
+
 1. On the right hand side, a new pane will be displayed. Select an Azure Data Explorer cluster to receive the data. The Azure Data Explorer cluster you specify must be in the same location as the source cluster where data is shared from. If you don't have an Azure Data Explorer cluster in the same location as the source cluster, please create one and then continue the step.  
 
-    ![SQL Map](./media/sql-map-to-target.png)
+    <img src="./media/map-dataset.png" width="80%">  
+
+1. Select the path.
+    <img src="./media/dataset-mapped.png" width="80%">  
 
     You can now access the received databases in your Azure Data Explorer cluster. 
+    
+    <img src="./media/target-adx.png" width="80%">  
     
 ## Troubleshoot
 To troubleshoot data sharing issues, refer to [Troubleshoot common issues](troubleshoot-adx-sharing.md).
