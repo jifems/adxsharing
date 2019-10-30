@@ -64,7 +64,7 @@ Create an Azure Data Share resource in an Azure resource group.
 
       <img src="./media/select-datasets-type.png" width="80%">   
 
-1. Select the databases you like to share. Select **Add Datasets**. 
+1. Select the databases you like to share. If you want to share all the databases in an Azure Data Explorer cluster (including all future databases you plan to add to the cluster), select the cluster instead of individual databases. Select **Add Datasets**. 
 
      <img src="./media/select-datasets.png" width="80%">   
      
@@ -76,11 +76,11 @@ Create an Azure Data Share resource in an Azure resource group.
 
       <img src="./media/add-recipient.png" width="80%">  
 
-1. In the Review + Create tab, review your Share Contents, Settings and Recipients. Select **Create**.
+1. In the Review + Create tab, review your Package Contents, Settings and Recipients. Select **Create**.
 
     <img src="./media/review-and-create-share.png" width="80%">  
 
-   Your Share has now been created and the recipient of your Data Share is now ready to accept your invitation. 
+   Your share has now been created and the recipient of your share is now ready to accept your invitation. 
 
     <img src="./media/sent-share.png" width="80%">  
 
