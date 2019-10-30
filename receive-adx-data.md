@@ -34,7 +34,7 @@ In this tutorial you will learn how to receive databases shared from one Azure D
 
 1. Click **Accept and Configure** to accept the invitation. If you don't want to accept the invitation, select *Reject*. 
 
-    <img src="./media/accept-options.png" width="80%">  
+    <img src="./media/accept-options.png">  
 
 
 ## Configure Received Share
