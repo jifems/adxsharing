@@ -60,15 +60,23 @@ Create an Azure Data Share resource in an Azure resource group.
 
     <img src="./media/datasets.png" width="70%">    
 
-1. Select the dataset type **Azure Data Explorer**. Navigate to the object you would like to share and select **Add Datasets**. Select **Continue**.
+1. Select the dataset type **Azure Data Explorer**. 
+
+      <img src="./media/select-datasets-type.png" width="70%">   
+
+1. Select the databases you like to share. Select **Add Datasets**. 
 
      <img src="./media/select-datasets.png" width="70%">   
+     
+1. Verify dataset is added successfully. Select **Continue**.
 
-1. In the Recipients tab, enter in the email addresses of your Data Consumer by selecting **+ Add Recipient**. Select **Continue**
+      <img src="./media/add-datasets.png" width="70%">   
+
+1. In the Recipients tab, enter in the email addresses of your Data Consumer by selecting **Add Recipient**. Select **Continue**.
 
       <img src="./media/add-recipient.png" width="70%">  
 
-1. In the Review + Create tab, review your Share Contents, Settings and Recipients. Select **Create**
+1. In the Review + Create tab, review your Share Contents, Settings and Recipients. Select **Create**.
 
     <img src="./media/review-and-create-share.png" width="70%">  
 
