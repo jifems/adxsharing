@@ -16,15 +16,15 @@ In this tutorial you will learn how to receive databases shared from one Azure D
 
 1. Check your inbox for an invitation from your data provider. The invitation is from Microsoft Azure, titled **Azure Data Share invitation from <yourdataprovider@domain.com>**. Click on the link **View invitation**. This takes you to Azure login screen.
 
-    <img src="./media/invitation-email.png" width="80%">  
+    <img src="./media/invitation-email.png" width="50%">  
 
 1. Sign in to the [Azure portal](https://portal.azure.com/). This takes you to your Data Share Invitations view. Select the invitation you would like to view. 
 
-    <img src="./media/invitations.png" width="80%">  
+    <img src="./media/invitations.png">  
 
 1. Review all the fields in the invitation, If you agree to the **Terms of use**, check *I agree to the terms of use*. 
 
-    <img src="./media/terms-of-use.png" width="80%">  
+    <img src="./media/terms-of-use.png">  
 
 1. Under *Target Data Share Account*, select your Data Share resource which you like to accept the invitation into. You can filter by Azure Subscription and Resource Group. If you don't have a Data Share resource, click **Create new** to create a Data Share resource. 
 
