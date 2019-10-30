@@ -18,11 +18,10 @@ In this tutorial you will learn how to receive databases shared from one Azure D
 
     ![InvitationEmail](./media/invitation-email.png "Invitation Email") 
 
-1. Sign in to the [Azure portal](https://portal.azure.com/). This takes you to your Data Share Invitations view.
+1. Sign in to the [Azure portal](https://portal.azure.com/). This takes you to your Data Share Invitations view. Select the invitation you would like to view. 
 
     ![Invitations](./media/invitations.png "List of invitations") 
 
-    Select the invitation you would like to view. 
 
 1. Review all the fields in the invitation, If you agree to the **Terms of use**, check *I agree to the terms of use*. 
 
