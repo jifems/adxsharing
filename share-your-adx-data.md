@@ -52,35 +52,29 @@ Create an Azure Data Share resource in an Azure resource group.
 
     <img src="./media/create-share.png" width="70%">
 
-1. Fill out the details for your Data Share. Specify a name, share type (select *In-place*), description, and optionally terms of use. 
+1. Fill out the details for your Data Share. Specify a name, share type (select **In-place**), description, and optionally terms of use. Select **Continue**. 
 
-    ![EnterShareDetails](./media/enter-share-details.png "Enter Share details") 
-
-1. Select **Continue**
+    <img src="./media/enter-share-details.png" width="50%">
 
 1. To add Datasets to your Data Share, select **Add Datasets**. 
 
-    ![Datasets](./media/datasets.png "Datasets")
+    <img src="./media/datasets.png" width="50%">    
 
-1. Select the dataset type *Azure Data Explorer*.
+1. Select the dataset type **Azure Data Explorer**. Navigate to the object you would like to share and select **Add Datasets**. Select **Continue**.
 
-1. Navigate to the object you would like to share and select 'Add Datasets'. 
+     <img src="./media/select-datasets.png" width="50%">   
 
-    ![SelectDatasets](./media/select-datasets.png "Select Datasets")    
+1. In the Recipients tab, enter in the email addresses of your Data Consumer by selecting **+ Add Recipient**. Select **Continue**
 
-1. In the Recipients tab, enter in the email addresses of your Data Consumer by selecting '+ Add Recipient'. 
-
-    ![AddRecipients](./media/add-recipient.png "Add recipients") 
-
-1. Select **Continue**
+      <img src="./media/add-recipient.png" width="50%">  
 
 1. In the Review + Create tab, review your Share Contents, Settings and Recipients. Select **Create**
 
-   ![ReviewAndCreateShare](./media/review-and-create-share.png "Review and Create Share") 
+    <img src="./media/review-and-create-share.png" width="50%">  
 
    Your Share has now been created and the recipient of your Data Share is now ready to accept your invitation. 
 
-   ![SentShares](./media/sent-share.png "Sent Share") 
+    <img src="./media/sent-share.png" width="50%">  
 
 ## Next steps
 To learn about how a Data Consumer can accept and receive a share, continue to the [accept and receive ADX data](receive-adx-data.md) tutorial. 
