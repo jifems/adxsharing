@@ -2,11 +2,11 @@
 
 This article explains how to troubleshoot common issues in sharing and receiving data from Azure Data Explorer.
 
-## Permission error when sharing data
-In order to share data from your Azure Data Explorer cluster, you need to be Owner of the Azure Data Explorer cluster. Note that creator of the Azure Data Explorer cluster is not necessarily the owner. To check your permission, go to Azure Data Explorer cluster, select **Access control (IAM)**, then **Role assignments**.
+## Permission error when sharing data (add dataset failure)
+In order to share data from your Azure Data Explorer cluster, you need to be Owner of the Azure Data Explorer cluster. Note that creator of the Azure Data Explorer cluster is not necessarily the owner. To check your permission, go to Azure Data Explorer cluster, select **Access control (IAM)**, then **Role assignments**. Note if this is the first time you are sharing data from this particular Azure Data Explorer cluster, it may take a few minutes for the role assignment to take effect. Please try again after a few minutes.
 
 ## Permission error to map target ADX cluster
-In order to specify a target Azure Data Explorer cluster to access shared data, you need to be Owner of the target Azure Data Explorer cluster. Note that creator of the Azure Data Explorer clluster is not necessarily the owner. To check your permission, go to Azure Data Explorer cluster, select **Access control (IAM)**, then **Role assignments**.
+In order to specify a target Azure Data Explorer cluster to access shared data, you need to be Owner of the target Azure Data Explorer cluster. Note that creator of the Azure Data Explorer clluster is not necessarily the owner. To check your permission, go to Azure Data Explorer cluster, select **Access control (IAM)**, then **Role assignments**. Note if this is the first time you are receiving data into this particular Azure Data Explorer cluster, it may take a few minutes for the role assignment to take effect. Please try again after a few minutes.
 
 ## Azure Data Share invitation not showing up
 In some cases, when a new user clicks Accept Invitation from the e-mail invitation that was sent, they may be presented with an empty list of invitations. This could be due to the following reasons:
