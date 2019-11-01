@@ -10,7 +10,7 @@ In this tutorial, you will learn how to set up a new Azure Data Share resource a
 ## Prerequisites
 
 * Azure Subscription: If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/) before you begin.
-* An Azure Data Explorer cluster with databases that you want to share.
+* An Azure Data Explorer cluster with databases that you want to share. If you don't have an Azure Data Explorer cluster, follow the instruction in the [Create an Azure Data Explorer Cluster and Database](https://docs.microsoft.com/azure/data-explorer/create-cluster-database-portal) documentation to create one.
 * Owner permission to the Azure Data Explorer cluster.
 * Your data consumer's Azure login e-mail address (using their e-mail alias will not work)
 
