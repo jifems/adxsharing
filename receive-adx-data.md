@@ -46,7 +46,7 @@ In this tutorial you will learn how to receive databases shared from one Azure D
 
     <img src="./media/received-share-dataset.png">  
 
-1. On the right hand side, a new pane will be displayed. Select an Azure Data Explorer cluster to receive the data. Select **Map to target**. The Azure Data Explorer cluster you specify must be in the same location as the source cluster where data is shared from. If you do not have an Azure Data Explorer cluster in the same location as the source cluster, please create one and then continue.  
+1. On the right hand side, a new pane will be displayed. Select an Azure Data Explorer cluster to receive the data. Select **Map to target**. The Azure Data Explorer cluster you specify must be in the same location as the source cluster where data is shared from. If you do not have an Azure Data Explorer cluster in the same location as the source cluster, please follow the instructions in the [Create an Azure Data Explorer Cluster and Database](https://docs.microsoft.com/azure/data-explorer/create-cluster-database-portal) documentation to create one, and then continue. Please note you will need to be owner of the Azure Data Explorer cluster in order to receive data into the cluster.
 
     <img src="./media/map-dataset.png">  
 
