@@ -30,7 +30,7 @@ The target Azure Data Explorer cluster must be in the same Azure Data Center as 
 If you already have a database of the same name in your consumer's ADX cluster, the shared database will not show up in the consumer's ADX cluster.
 
 ## Unable to query the data in the shared database
-This is likely due to permission issue. After you receive the share and specify your target Azure Data Explorer cluster, make sure to give yourself and other user permission to the database.  
+This is likely due to permission issue. After you receive the share and specify your target Azure Data Explorer cluster, make sure to give yourself permission to the database.  
 
 ## Your question is still not answered?
 Please contact azdatasharesupport@microsoft.com for support.
