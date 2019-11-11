@@ -57,7 +57,7 @@ In this tutorial you will learn how to receive databases shared from one Azure D
     
     <img src="./media/target-adx.png" >  
     
-1. Select **Permissions**. The permission list will show up as "No results". Click **Add**. Grant yourself and other user permission to the database.
+1. Select **Permissions**. The permission list will show up as "No results". Click **Add**. Grant yourself permission to the database.
 
     <img src="./media/shared-db-permission.png" >
     
