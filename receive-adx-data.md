@@ -57,7 +57,7 @@ In this tutorial you will learn how to receive databases shared from one Azure D
     
     <img src="./media/target-adx.png" >  
     
-1. The permission field will show up as empty. Select **Permission**, click **Add**. Follow the steps in [Manage Azure Data Explorer database perissions](https://docs.microsoft.com/en-us/azure/data-explorer/manage-database-permissions) documentation to add permission to the database.
+1. The permission field will show up as empty. Select **Permission**, click **Add**. Follow the steps in [Manage Azure Data Explorer database perissions](https://docs.microsoft.com/en-us/azure/data-explorer/manage-database-permissions) documentation to grant yourself and other users permission to the database.
 
     <img src="./media/shared-db-permission.png" >
     
