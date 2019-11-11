@@ -50,12 +50,18 @@ In this tutorial you will learn how to receive databases shared from one Azure D
 
     <img src="./media/map-dataset.png">  
 
-1. Once mapping is successful, you can start accessing data from the shared database. Select the path next to the dataset to open Azure Data Explorer cluster.
+1. Once mapping is successful, you can configure permission to the shared database. Select the path next to the dataset to open Azure Data Explorer cluster.
     <img src="./media/dataset-mapped.png" >  
 
-    You should see the shared databases in your Azure Data Explorer cluster. 
+1. You should see the shared databases in your Azure Data Explorer cluster. Click on the database.
     
     <img src="./media/target-adx.png" >  
+    
+1. The permission field will show up as empty. Select **Permission**, click **Add**. Follow the steps in [Manage Azure Data Explorer database perissions](https://docs.microsoft.com/en-us/azure/data-explorer/manage-database-permissions) documentation to add permission to the database.
+
+    <img src="./media/shared-db-permission.png" >
+    
+You can now query the data in the shared database.
     
 ## Troubleshoot
 To troubleshoot data sharing issues, refer to [Troubleshoot common issues](troubleshoot-adx-sharing.md).
