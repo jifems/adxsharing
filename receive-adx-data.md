@@ -4,6 +4,7 @@ In this tutorial you will learn how to receive databases shared from one Azure D
 
 * Accept a Data Share Invitation
 * Specify an Azure Data Explorer cluster to access shared data. 
+* Stop receiving data
 
 ## Prerequisites
 
@@ -62,6 +63,9 @@ In this tutorial you will learn how to receive databases shared from one Azure D
     <img src="./media/shared-db-permission.png" >
     
 You can now query the data in the shared database.
+
+## Stop Receiving Data
+To stop receiving data, select the sent share, **Dataset** tab to delete the dataset mapping prior to deleting the received share.
     
 ## Troubleshoot
 To troubleshoot data sharing issues, refer to [Troubleshoot common issues](troubleshoot-adx-sharing.md).
