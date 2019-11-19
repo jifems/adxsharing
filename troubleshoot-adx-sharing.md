@@ -32,5 +32,8 @@ If you already have a database of the same name in your consumer's ADX cluster, 
 ## Unable to query the data in the shared database
 This is likely due to permission issue. After you receive the share and specify your target Azure Data Explorer cluster, make sure to give yourself permission to the database.  
 
+## After share is deleted, the shared data is still available to the data consumer
+In order to delete the symbolink link, you will need to delete and dataset or the dataset mapping prior to deleting the share. This is a current product limitation which will be updated in the near future. If you have already deleted the share, please contact azdatasharesupport@microsoft.com for instructions on how to delete the symbolink link manually.
+
 ## Your question is still not answered?
 Please contact azdatasharesupport@microsoft.com for support.
