@@ -33,7 +33,13 @@ If you already have a database of the same name in your consumer's ADX cluster, 
 This is likely due to permission issue. After you receive the share and specify your target Azure Data Explorer cluster, make sure to give yourself permission to the database.  
 
 ## After share is deleted, the shared data is still available to the data consumer
-In order to delete the symbolink link and make data unavailable to the consumer, you will need to either delete the dataset or the dataset mapping prior to deleting the share. This is a current product limitation which will be updated in the near future. If you have already deleted the share, please contact azdatasharesupport@microsoft.com for assistance.
+In order to delete the symbolic link and make data unavailable to the data consumer, you will need to either delete the dataset (as a data provider) or the dataset mapping (as a data consumer). Revoking access, deleting the share or deleting the share subscription will not delete the symbolic link. This is a current product limitation which will be addressed in the near future. 
+
+If you have already deleted the share, there is a workaround to delete the symbolic link following these steps. 
+
+* Data provider creates a new share to share the same DB or cluster with the same data consumer. 
+* Data consumer accepts invitation and specifies the same target Azure Data Explorer cluster to receive data.
+* Data provider deletes the dataset or data consumer deletes the dataset mapping.
 
 ## Your question is still not answered?
 Please contact azdatasharesupport@microsoft.com for support.
