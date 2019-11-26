@@ -32,7 +32,7 @@ If you already have a database of the same name in your consumer's ADX cluster, 
 ## Unable to query the data in the shared database
 This is likely due to permission issue. After you receive the share and specify your target Azure Data Explorer cluster, make sure to give yourself permission to the database.  
 
-## After share is deleted, the shared data is still available to the data consumer
+## After share is deleted or access revoked, the shared data is still available to the data consumer
 In order to delete the symbolic link and make data unavailable to the data consumer, you will need to either delete the dataset (as a data provider) or the dataset mapping (as a data consumer). Revoking access, deleting the share or deleting the share subscription will not delete the symbolic link. This is a current product limitation which will be addressed in the near future. 
 
 If you have already deleted the share, there is a workaround to delete the symbolic link following these steps. 
