@@ -42,4 +42,4 @@ If you have already deleted the share, there is a workaround to delete the symbo
 * Data provider deletes the dataset or data consumer deletes the dataset mapping.
 
 ## Your question is still not answered?
-Please contact azdatasharesupport@microsoft.com for support.
+Please contact support.
