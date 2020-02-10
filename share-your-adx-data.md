@@ -88,7 +88,7 @@ Create an Azure Data Share resource in an Azure resource group.
 ## Next steps
 To learn about how a Data Consumer can accept and receive a share, continue to the [accept and receive ADX data](receive-adx-data.md) tutorial. 
 
-To stop sharing, select the sent share, **Dataset** tab to delete the dataset prior to revoking access or deleting the share.
+To stop sharing a dataset, select the sent share, **Dataset** tab to delete the dataset. If you want to end the sharing relationship, select the **Share subscription** tab, then select recipient to revoke access.
 
 ## Troubleshoot
 To troubleshoot data sharing issues, refer to [Troubleshoot common issues](troubleshoot-adx-sharing.md).
